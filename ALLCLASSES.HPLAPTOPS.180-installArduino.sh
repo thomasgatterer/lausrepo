@@ -16,10 +16,10 @@ wget http://download.arduino.org/IDE/1.7.10/arduino-1.7.10.org-linux32.tar.xz
 tar -xvf arduino-1.7.10.org-linux32.tar.xz
 
 #cp -r arduino-1.7.10-linux64 /usr/lib/arduino-1.7.10-linux64
-cp -r arduino-1.7.10.org-linux32 /usr/lib/arduino-1.7.10-linux32
+cp -r arduino-1.7.10-linux32 /usr/lib/arduino-1.7.10-linux32
 
 #ln -s /usr/lib/arduino-1.7.10-linux64/arduino /usr/bin/arduino
-ln -s /usr/lib/arduino-1.7.10-linux32/arduino /usr/bin/arduino
+ln -sf /usr/lib/arduino-1.7.10-linux32/arduino /usr/bin/arduino
 
 # manipulated file
 file=/etc/udev/rules.d/90-extraacl.rules
