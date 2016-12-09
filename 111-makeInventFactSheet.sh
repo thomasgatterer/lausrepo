@@ -18,7 +18,8 @@ date +"%Y-%m-%d_%H-%M-%S" >> $FILENAME
 
 
 echo -e "\n" >> $FILENAME
-cat /proc/cpuinfo >> $FILENAME
+lscpu >> $FILENAME
+#cat /proc/cpuinfo >> $FILENAME
 
 echo -e "\n" >> $FILENAME
 free -h >> $FILENAME

@@ -16,7 +16,14 @@ for f in $FILES
 do
   echo "Processing $f file..."
   # take action on each file. $f store current file name
-  cat $f
+  awk '$0 ~ /model name/ {print $4$5$6$7$8$9}' $f
+  awk '$0 ~ /cpu MHz/ {print $4$5$6$7$8$9}' $f
+  awk '$0 ~ /CPU\(s\):/ {print $4$5$6$7$8$9}' $f
+
+
+
+
+  echo "----------------------------------"
 done
 
 
