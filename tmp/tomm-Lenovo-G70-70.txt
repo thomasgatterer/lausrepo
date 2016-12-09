@@ -1,0 +1,33 @@
+tomm-Lenovo-G70-70
+2016-12-09_21-51-24
+
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) pro Kern:    1
+Kern(e) pro Socket:    2
+Socket(s):             1
+NUMA-Knoten:           1
+Anbieterkennung:       GenuineIntel
+Prozessorfamilie:      6
+Modell:                69
+Stepping:              1
+CPU MHz:               824.964
+BogoMIPS:              3391.96
+Virtualisierung:       VT-x
+L1d Cache:             32K
+L1i Cache:             32K
+L2 Cache:              256K
+L3 Cache:              2048K
+NUMA node0 CPU(s):     0,1
+
+
+             Gesamt     Belegt       Frei  Gemeinsam     Puffer      Cache
+Speicher:       3,8G       2,8G       1,0G       260M       219M       1,4G
+-/+ Puffer/Cache:       1,1G       2,7G
+Auslagerungsspeicher:       3,9G         0B       3,9G
+
+
