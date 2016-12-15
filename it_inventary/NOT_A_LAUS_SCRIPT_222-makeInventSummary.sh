@@ -1,5 +1,14 @@
 #! /bin/bash
 
+#--------------------------------------------------------------------------------------
+#THIS IS NOT A LAUS SCRIPT!!
+#this script has to be executed in the directory on the server (tests are here in tmp)
+#this script has to be executed ONLY ONCE, at the end of the collection of data 
+#--------------------------------------------------------------------------------------
+
+
+
+
 #create a summary csv file of the fact sheets of the clients 
 
 # create a variable to represent the filename
