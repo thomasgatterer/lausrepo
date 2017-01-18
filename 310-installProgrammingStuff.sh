@@ -13,8 +13,11 @@ apt-get -y install openjdk-7-jdk
 apt-get -y install scratch
 
 ##BlueJ
+dpkg -i ./lfsdir/bluej-317.deb
 
-##greenfoot 
+##greenfoot
+dpkg -i ./lfsdir/Greenfoot-linux-304.deb
+
 
 ########################END
 
