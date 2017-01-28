@@ -5,6 +5,6 @@ Name=Schulbuch-Liste
 Comment=Schulbuchliste
 Exec=evince Schulbuchliste_2017_18.pdf
 Icon=accessories-dictionary
-Path=/nwbox/dokumente-lehrer
+Path=/nwbox/manuals-lehrer
 Terminal=false
 StartupNotify=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Schulbuch-aktion
+Name=Schulbuch-Aktion
 Comment=Schulbuchaktion
 Exec=java -classpath '.:/usr/share/java/mysql.jar:/usr/share/java/mysql-connector-java.jar:/nwbox/apps-wine' sba.sba
 Icon=accessories-dictionary
