@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Schulbuch-Liste
+Comment=Schulbuchliste
+Exec=evince Schulbuchliste_2017_18.pdf
+Icon=accessories-dictionary
+Path=/nwbox/dokumente-lehrer
+Terminal=false
+StartupNotify=false
