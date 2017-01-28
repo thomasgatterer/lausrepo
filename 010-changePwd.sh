@@ -6,7 +6,8 @@
 # chmod to the same rights
 
 ## save old password 
-cp /etc/shadow /etc/shadowtgold
+DATUM=$(date +"%Y-%m-%d")
+cp /etc/shadow /etc/shadow.$DATUM
 
 ## Change te worker password
 # in the hash string is "/" used so i used "+" for delimiting the sed comand
