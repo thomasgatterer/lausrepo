@@ -2,4 +2,4 @@ NOT A SHELLSCRIPT!TG
 
 cp Schulbuch* /export/files/dt-main.lehrer/
 cp lfsdir/Schulbuchliste_2017_18.pdf /DATEN/nwbox/manuals-lehrer/
-
+cp icons.screen0.rc /export/files/nwboxuser/.config/xfce4/desktop/
