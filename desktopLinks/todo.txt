@@ -1,0 +1,5 @@
+NOT A SHELLSCRIPT!TG
+
+cp Schulbuch* /export/files/dt-main.lehrer/
+cp lfsdir/Schulbuchliste_2017_18.pdf /DATEN/nwbox/manuals-lehrer/
+
