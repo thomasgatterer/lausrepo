@@ -1,0 +1,11 @@
+#!/usr/bin/env playonlinux-bash
+[ "$PLAYONLINUX" = "" ] && exit 0
+source "$PLAYONLINUX/lib/sources"
+export WINEPREFIX="/home/nwboxuser/.PlayOnLinux//wineprefix/Ceeboot4"
+export WINEDEBUG="-all"
+#POL_Log=Ceeboot 4
+#ScriptID=Ceeboot 4
+cd "/nwbox/apps-wine/Ceebot4"
+
+cd "/home/nwboxuser/.PlayOnLinux//wineprefix/Office2010/drive_c/./Program Files/Microsoft Office/Office14"
+POL_ceebot4 "ceebot4.exe"  "$@"
