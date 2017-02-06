@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ceebot4
+Comment=Ceebot4
+Type=Application
+Exec=playonlinux --run POL_ceebot4
+Icon=/usr/share/icons/ceebot.ico
+Name[fr_FR]=Ceebot4
+StartupWMClass=
+Categories=

@@ -6,6 +6,5 @@ export WINEDEBUG="-all"
 #POL_Log=Ceeboot 4
 #ScriptID=Ceeboot 4
 cd "/nwbox/apps-wine/Ceebot4"
+POL_Wine "/nwbox/apps-wine/Ceebot4/ceebot4.exe"  "$@"
 
-cd "/home/nwboxuser/.PlayOnLinux//wineprefix/Office2010/drive_c/./Program Files/Microsoft Office/Office14"
-POL_ceebot4 "ceebot4.exe"  "$@"
